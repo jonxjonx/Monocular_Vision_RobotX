@@ -1,12 +1,23 @@
 NTU FYP: RobotX Development of Surface Vehicle's Visual Perception of Dynamic Features
 ==================================================
+This project focuses on the development of a visual perception system for an Unmanned Surface Vehicle (USV), aimed at generating a sequence of dynamic features such as colors. The project is undertaken with the aim of completing Task 5 of the Maritime RobotX Challenge 2024.
+
+This project entails the integration of hardware and development of software for the Monocular Vision System, which is designed to perform localization and color recognition of LED Panel to produce the sequence of colors. Testing of the Monocular Vision System is
+done by the integration of hardware and software of the LED Panel. Furthermore, a Graphical User Interface (GUI) is designed to facilitate the process of the system.
+
+The final section of this project will outline the results of the Monocular Vision System performance both indoors and outdoors, along with potential future improvements for further development.
+
 Hardware
 --------
 Designed a test rig since it will not be mounted on the USV.
 
-1 x Arducam 64MP Camera https://amicus.com.sg/index.php?route=product/product&manufacturer_id=79&product_id=8222
+* 1 x Arducam 64MP Camera https://amicus.com.sg/index.php?route=product/product&manufacturer_id=79&product_id=8222
 
-1 x Raspberry Pi 4B 2GB
+* 1 x Raspberry Pi 4B 2GB
+
+Isometric and Front View of Monocular Vision System
+
+![image](https://github.com/user-attachments/assets/ec0bbe02-4f32-4674-9bef-bdd7759dae7d)
 
 Software
 --------
